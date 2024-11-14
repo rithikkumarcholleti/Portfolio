@@ -149,11 +149,11 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://i.ibb.co/XzTWxnr/orinson.jpg",
-      role: "Frontend Developer Intern",
-      company: "Orinson Technologies",
-      date: "Sept 2024 - Present",
-      desc: "Working on the frontend of the web application using various Frontend technologies.",
+      img: "https://cognoriseinfotech.com/images/cognoRise-removebg.png",
+      role: "Web Developer Intern",
+      company: "CognoRise Infotech",
+      date: "Nov 2024 - Present",
+      desc: "Working as a web developer using various Frontend technologies.",
       skills: [
         "ReactJS",
         "Redux",
@@ -165,6 +165,23 @@ export const Bio = {
     },
     {
       id: 1,
+      img: "https://i.ibb.co/XzTWxnr/orinson.jpg",
+      role: "FullStack Developer Intern",
+      company: "Orinson Technologies",
+      date: "Nov 2024 - Present",
+      desc: "Working on the fullstack of the web application using various Frontend technologies.",
+      skills: [
+        "ReactJS",
+        "MongoDB",
+        "Redux",
+        "NodeJs",
+        "HTML",
+        "CSS",
+        "JavaScript",
+      ],
+    },
+    {
+      id: 2,
       img: "https://i.ibb.co/QHHD4wW/datapoint.jpg",
       role: "Python using Machine Learning intern",
       company: "Datapoint IT & Hardware Tech pvt ltd",
@@ -215,7 +232,46 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 9,
+      id: 0,
+      title: "Fitness-app",
+      date: "Nov 2024",
+      description:
+        "A complete fitness application built with TypeScript, JavaScript, React, HTML, CSS, and MongoDB. This app helps users track their workouts, manage nutrition plans, and monitor fitness progress, providing an engaging user experience through an intuitive UI.",
+      image:
+      "https://github.com/user-attachments/assets/259b3097-16da-406a-9644-5d0af0b9a5d6",
+      tags: [
+        "HTML",
+        "CSS",
+        "Typescript",
+        "Javascript",
+        "React Js",
+        "MongoDB"
+      ],
+      category: "web app",
+      github: "https://github.com/rithikkumarcholleti/Fitness-App",
+    },
+    {
+      id: 1,
+      title: "News-app",
+      date: "Oct 2024",
+      description:
+        "A React-based news application that fetches and displays news articles from the News API.",
+      image:
+      "https://github.com/user-attachments/assets/4307fd5e-3e41-4b67-9941-1379b1311d2c",
+      tags: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "React Js",
+        "News API",
+        "Redux",
+      ],
+      category: "web app",
+      github: "https://github.com/rithikkumarcholleti/newsapp",
+    },
+    {
+      id: 2,
       title: "Weather-Dashboard",
       date: "Sep 2024",
       description:
@@ -232,10 +288,9 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/rithikkumarcholleti/Weather-dashboard",
-      webapp: "https://trackify.duckdns.org",
     },
     {
-      id: 0,
+      id: 3,
       title: "Product Page",
       date: "Sep 2024",
       description:
@@ -245,10 +300,9 @@ export const Bio = {
       tags: ["React Js", "HTML","CSS","Javascript", "Redux"],
       category: "web app",
       github: "https://github.com/rithikkumarcholleti/Apple-product-page",
-      webapp: "https://podstream.netlify.app/",
     },
     {
-      id: 1,
+      id: 4,
       title: "Ecommerce Landing Page",
       date: "Sep2024",
       description:
@@ -263,10 +317,9 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/rithikkumarcholleti/ecommerce-landing-page/tree/main/react-landing-page",
-      webapp: "https://vexa-app.netlify.app/",
     },
     {
-      id: 2,
+      id: 5,
       title: "Salary Predictor using AutoMl",
       date: "Jun 2023 - aug 2023",
       description:
@@ -276,10 +329,9 @@ export const Bio = {
       tags: ["Python", "Numpy", "Pandas", "SQLite", "CSS", "HTML"],
       category: "machine learning",
       github: "https://github.com/rithikkumarcholleti/AUTOML",
-      webapp: "https://brain-tumor.netlify.app/",
     },
     {
-      id: 4,
+      id: 6,
       title: "Currency Converter",
       date: "Oct 2023",
       description:
@@ -289,10 +341,9 @@ export const Bio = {
       tags: ["HTML", "CSS", "Javascript", "ExternalAPI"],
       category: "web app",
       github: "https://github.com/rithikkumarcholleti/currency-converter/tree/main",
-      webapp: "https://whatsapp-clone-rishav.web.app",
     },
     {
-      id: 5,
+      id: 7,
       title: "HealthCare Services App",
       date: "Sep 2024 - Present",
       description:
@@ -302,10 +353,9 @@ export const Bio = {
       tags: ["React Js", "Local Storage", "Javascript", "HTML", "CSS"],
       category: "web app",
       github: "https://github.com/rithikkumarcholleti/Healthcare-Services",
-      webapp: "https://rishav-react-todo.netlify.app/",
     },
     {
-      id: 6,
+      id: 8,
       title: "Nike Shoe Spot",
       date: "Jun 2021",
       description:
@@ -315,7 +365,6 @@ export const Bio = {
       tags: ["Javascript", "CSS", "HTML",],
       category: "web app",
       github: "https://github.com/rithikkumarcholleti/Nike-Shoe-spot",
-      webapp: "https://breaking-bad-webapp.netlify.app",
     },
   ];
   

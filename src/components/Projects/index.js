@@ -12,7 +12,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          I have worked on a wide range of projects. From web apps to Machine learning. Here are some of my projects. For more new updated projects visit my github. You can find my projects "https://vercel.com/rithik-kumar-cholletis-projects" here. 
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
