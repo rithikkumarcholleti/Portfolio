@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
+// Styled components
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -118,6 +119,7 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
+// Contact component
 const Contact = () => {
   const [open, setOpen] = useState(false);
   const [error, setError] = useState(false);
@@ -126,9 +128,8 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm('service_lthtvzo', 'template_pqicojw', form.current, 'SqkI10KwM5VAYPixM')
+      .sendForm('service_lthtvzo', 'template_nv7k7mj', form.current, 'SqkI10KwM5VAYPixM')
       .then(
         (result) => {
           console.log('Email sent successfully:', result);
@@ -136,7 +137,7 @@ const Contact = () => {
           form.current.reset();
         },
         (error) => {
-          console.log('Failed to send email:', error.text);
+          console.error('Failed to send email:', error.text);
           setError(true);
           setErrorMessage(error.text);
         }
@@ -150,29 +151,27 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email" name="from_email" required />
+          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Subject" name="subject" required />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        
+
         {/* Success Snackbar */}
         <Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={() => setOpen(false)}
           message="Email sent successfully!"
-          severity="success"
         />
-        
+
         {/* Error Snackbar */}
         <Snackbar
           open={error}
           autoHideDuration={6000}
           onClose={() => setError(false)}
           message={`Failed to send email: ${errorMessage}`}
-          severity="error"
         />
       </Wrapper>
     </Container>
