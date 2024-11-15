@@ -6,8 +6,8 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 
 ![Screenshot 2024-09-27 182133](https://github.com/user-attachments/assets/6a79f8e9-5570-45ff-8441-d309210740a0)
 ![Screenshot 2024-09-27 182149](https://github.com/user-attachments/assets/ec1d41cf-c2f9-4569-b184-175cfb833669)
-![Screenshot 2024-09-27 182200](https://github.com/user-attachments/assets/4d6698c6-ca43-4d83-b95b-8a65c0423f59)
-![Screenshot 2024-09-27 182213](https://github.com/user-attachments/assets/5388f553-d001-46dc-8f0f-0e79d5d70d4e)
+![Screenshot 2024-11-15 121622](https://github.com/user-attachments/assets/fbfb8281-1fad-459b-8c3a-a5222a572b0b)
+![Screenshot 2024-11-15 121550](https://github.com/user-attachments/assets/9ff00909-5b33-4df2-9ce9-ecfb71bd0d38)
 ![Screenshot 2024-09-27 182227](https://github.com/user-attachments/assets/a9372ac4-769d-4ca8-b9d1-1123f5306e0d)
 ![Screenshot 2024-09-27 182245](https://github.com/user-attachments/assets/691fa7fc-ff9a-4d6d-a4a1-018ce36f0c13)
 ![Screenshot 2024-09-27 182315](https://github.com/user-attachments/assets/1af3e789-2d53-4f89-9a1b-5ba90dc5fd35)
